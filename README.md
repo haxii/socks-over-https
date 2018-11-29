@@ -68,7 +68,7 @@ CONNECT(CMD 1) to domain(ATYP 3) example.com with port 433
 
 4) server gets the request and connects to the remote https proxy, then respond to client
 
-4.1) server connect to https proxy
+- server connect to https proxy
 
 ```
 CONNECT example.com:443 HTTP/1.1
@@ -77,13 +77,13 @@ User-Agent: some-user-agent
 Proxy-Authorization: Basic dXNlcjpwYXNz
 ```
 
-4.2) remote proxy responds
+- remote proxy responds
 
 ```
 HTTP/1.1 200 Connection established
 ```
 
-4.3) respond success (REP 0) to client
+- respond success (REP 0) to client
 
 ```
 +-----+-----+------+------+----------+----------+
