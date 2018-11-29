@@ -24,11 +24,11 @@ Then any traffic sent to the proxy will be redirected to the **TCP tunnel** open
 We can turn the **TCP tunnel** above for SOCKS5 protocol's tunnel:
 
 ```
-+--------+       +--------++-----------+      +--------+
-|+-------> socks5 +-------->   +------>|
-| client |       | over   ||https proxy|      | server |
-|<-------+ https  <--------+   <------+|
-+--------+       +--------++-----------+      +--------+
++--------+       +--------+        +-----------+      +--------+
+|        +-------> socks5 +-------->           +------>        |
+| client |       | over   |        |https proxy|      | server |
+|        <-------+ https  <--------+           <------+        |
++--------+       +--------+        +-----------+      +--------+
 ```
 
 According to [RFC1928](https://www.ietf.org/rfc/rfc1928.txt), the protocol of socks5 proxy request to https://example.com/some/path with https tunnel is
@@ -83,11 +83,14 @@ HTTP/1.1 200 Connection established
 ```
 
 4.3) respond success (REP 0) to client
+
+````
 +-----+-----+------+------+----------+----------+
 | VER | REP |  RSV | ATYP | BND.ADDR | BND.PORT |
 +-----+-----+------+------+----------+----------+
 | 0x05| 0x00| 0x00 |  1   | 0.0.0.0  |   7648   |
 +-----+-----+------+------+----------+----------+
+```
 
 5) data transfer
 
