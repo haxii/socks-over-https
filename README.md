@@ -93,6 +93,4 @@ HTTP/1.1 200 Connection established
 +-----+-----+------+------+----------+----------+
 ```
 
-5) data transfer
-
-Any traffic from client in written into http tunnel opened by proxy, any traffic from tunnel is written to client.
+5) data transfer: Any traffic from client in written into http tunnel opened by proxy, any traffic from tunnel is written to client.
