@@ -1,0 +1,36 @@
+{
+    "log": {
+        "dir": "/tmp/socks-over-https",
+        "level": "debug"
+    },
+    "settings": {
+        "readBufferSize": 4096,
+        "writeBufferSize": 4096
+    },
+    "proxies": [
+        {
+            "socks": {
+                "address": "127.0.0.1",
+                "port": 10800
+            },
+            "http": {
+                "address": "10.1.3.1",
+                "port": 1080,
+                "user": "user",
+                "pass": "pass"
+            }
+        },
+        {
+            "socks": {
+                "address": "127.0.0.1",
+                "port": 10801,
+                "user": "user",
+                "pass": "pass"
+            },
+            "http": {
+                "address": "10.1.3.1",
+                "port": 6001
+            }
+        }
+    ]
+}

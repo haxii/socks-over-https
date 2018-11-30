@@ -1,0 +1,11 @@
+github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5/go.mod h1:wHh0iHkYZB8zMSxRWpUBQtwG5a7fFgvEO+odwuTv2gs=
+github.com/haxii/daemon v1.0.0 h1:M+AQFhznOXtwsWo6ax2pNvsH/OIc9We4F5MqfXDJbdE=
+github.com/haxii/daemon v1.0.0/go.mod h1:u5vCK3DQE83M53RF2uSNkCnnYxl03LkowaPTqnG7DqI=
+github.com/haxii/fastproxy v0.4.0 h1:U5kGbZkLsGYPQYj5Jpy0k+q1GO17OzcGSdx3WMAHEAI=
+github.com/haxii/fastproxy v0.4.0/go.mod h1:1H0rt7i9UnTVu/ooQNPqWxUyJ2a2KB6hSTltr5LoFEg=
+github.com/haxii/log v1.0.0 h1:Zhesdrw9cG9A6nb4wX6SIuHCt1btRxmyhUYDmzrYm/k=
+github.com/haxii/log v1.0.0/go.mod h1:y9MlOm+u2ny65yQxScWfSGZFOhRVLXz2vJlkiIx2jfI=
+github.com/rs/zerolog v1.11.0/go.mod h1:YbFCdg8HfsridGWAh22vktObvhZbQsZXe4/zB0OKkWU=
+github.com/takama/daemon v0.0.0-20180403113744-aa76b0035d12 h1:MlOkfN9J0i50+dVLc2WzN15uxggtdN4uRUXy33mt3ik=
+github.com/takama/daemon v0.0.0-20180403113744-aa76b0035d12/go.mod h1:So5Nv647d/sgbZNAfiWtw6egowH8vNNrPXAwooWeElk=
+golang.org/x/net v0.0.0-20181129055619-fae4c4e3ad76/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
