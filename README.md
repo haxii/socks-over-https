@@ -43,7 +43,7 @@ config file is defined as following json:
 
 the proxy pair is configured as blow
 
-```json
+```
 {
     "socks":{                  // socks5 server config
         "address":"127.0.0.1", // socks5 server bind address, 127.0.0.1 by default
