@@ -29,7 +29,7 @@ socks-over-https -h
 
 config file is defined as following json:
 
-```json
+```
 {
   "log": {},
   "settings": {},
